@@ -1,12 +1,51 @@
-# React + Vite
+# Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional **Netflix Clone** built using **React.js (Vite)**, **Firebase Authentication**, and **The Movie Database (TMDB) API**. This project replicates the core functionalities of Netflix, allowing users to browse movies, watch trailers, and authenticate via Firebase.
 
-Currently, two official plugins are available:
+## Features 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Authentication** 🔑 (Sign Up / Login using Firebase)
+- **Movie Database Integration** 🎬 (Fetch movie details from TMDB API)
+- **Responsive UI** 📱 (Optimized for all devices)
+- **Trailer Playback** ▶️ (Embedded video player)
+- **Search Functionality** 🔍 (Find movies easily)
+- **Loading Animations** ⏳ (Smooth UI interactions)
 
-## Expanding the ESLint configuration
+## Tech Stack 🛠️
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js (Vite), Tailwind CSS
+- **Backend:** Firebase Authentication
+- **API:** TMDB API
+
+## Installation & Setup ⚙️
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Hemantsrawat15/Netflix.git
+   cd Netflix
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Create a `.env` file and add your API keys:
+   ```env
+   VITE_FIREBASE_API_KEY=your_firebase_api_key
+   VITE_TMDB_API_KEY=your_tmdb_api_key
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+## Deployment 🚀
+
+To deploy the project on **Firebase Hosting**, run:
+```sh
+firebase login
+firebase init
+firebase deploy
+```
+
+## Screenshots 📸
+(Soon)
