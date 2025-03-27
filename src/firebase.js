@@ -9,12 +9,12 @@ import { addDoc, collection, getFirestore } from "firebase/firestore";
 import { toast } from "react-toastify";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: "AIzaSyDZgcRB2DUC-esuZ9RJsC4cFyoSuNI30O0",
+  authDomain: "netflix-62144.firebaseapp.com",
+  projectId: "netflix-62144",
+  storageBucket: "netflix-62144.firebasestorage.app",
+  messagingSenderId: "676249411244",
+  appId: "1:676249411244:web:54e4a1ff3eb5299851c909"
 };
 
 const app = initializeApp(firebaseConfig);
